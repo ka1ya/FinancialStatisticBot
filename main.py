@@ -179,6 +179,26 @@ def statistics_graph(data) -> str:
     return f"{name_of_picture}.png"
     
 
+async def expense_per_month(update: Update, context: CallbackContext) -> None:
+    pass
+
+
+async def expense_per_week(update: Update, context: CallbackContext) -> None:
+    pass
+
+
+async def statistics_categ_per_day(update: Update, context: CallbackContext) -> None:
+    pass
+
+
+async def statistics_categ_per_week(update: Update, context: CallbackContext) -> None:
+    pass
+
+
+async def statistics_categ_per_month(update: Update, context: CallbackContext) -> None:
+    pass
+
+
 async def start(update: Update, context: CallbackContext) -> None:
     logging.info("Command start was triggered")
     await update.message.reply_text("hello")
